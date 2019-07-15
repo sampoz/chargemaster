@@ -1,6 +1,7 @@
 # chargemaster #
 Control various SkyRC, Voltcraft,.. battery charger with javascript/nodejs
 
+Tested with SkyRC iMAX B6AC V2 and linux.
 
 #### What works
   - charging
@@ -14,7 +15,8 @@ Control various SkyRC, Voltcraft,.. battery charger with javascript/nodejs
   - update firmeware
 
 #### Tested devices
-  - Voltcraft Ultimate 1000W
+  - Voltcraft Ultimate 1000W (earlier fork)
+  - SkyRC iMAX B6AC V2 (current version)
 
 
 ## Warning!
