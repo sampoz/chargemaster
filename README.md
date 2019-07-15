@@ -22,6 +22,11 @@ Tested with SkyRC iMAX B6AC V2 and linux.
 ## Warning!
 very early version! Bugs can inflame your batteries! Use at your own risk! Neither me or other contributors will take responsibility for damages.
 
+## Dependencies
+At least:
+```
+libusb-1.0-0-dev
+```
 
 ## Usage as CLI Tool
 ```bash
