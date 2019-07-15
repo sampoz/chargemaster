@@ -17,7 +17,7 @@ function exit(code=0, message) {
 function getChargeMaster(device) {
   if(device) {
     const parsed = options.device.split(':').map( (a) => parseInt(a, 16))
-    if(parsed) {
+    if(!parsed) {
       throw new Error('invalid device string')
     }
     return new ChargeMaster(parsed)
